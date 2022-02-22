@@ -3,7 +3,7 @@ import React from 'react';
 function LandingPage() {
     return (
         <section>
-            Placeholder
+            This is the landing page!
         </section>
     )
 }

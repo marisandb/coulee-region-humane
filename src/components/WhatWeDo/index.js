@@ -3,7 +3,7 @@ import React from 'react';
 function WhatWeDo() {
     return (
         <section>
-            Placeholder
+            This is the What we Do page
         </section>
     )
 }

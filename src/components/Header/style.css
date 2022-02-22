@@ -1,0 +1,36 @@
+header {
+    background-color: var(--primary);
+    flex-wrap: wrap;
+}
+
+.header-button {
+    top: 5px;
+    right: 90px;
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    margin-top: 1%;
+}
+.logo{
+    width: auto;
+    height: 200px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.btn {
+    padding: 15px 20px;
+    color: var(--primary);
+    background: var(--light);
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100px;
+    margin-left: 20px;
+    font-family: "Comfortaa";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.icons {
+    display: inline-block;
+    vertical-align: middle;
+}

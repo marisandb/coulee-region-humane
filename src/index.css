@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary: #8BBA3B;
+  --secondary: #00ace0;
+  --light: #fff;
+  --dark: black;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

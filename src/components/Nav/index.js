@@ -11,14 +11,14 @@ function Nav(props) {
   } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage.name);
+    document.title = capitalizeFirstLetter(currentPage.name + " - Coulee Region Wildlife Rehabilitation");
   }, [currentPage]);
 
   return (    
       <nav>
         <ul className="flex-row">
           {pages.map((Page) => (
-            <div
+            <li
               className={`nav-name ${
                 currentPage.name === Page.name && 'navActive'
                 }`}
@@ -29,7 +29,7 @@ function Nav(props) {
               >
                 {capitalizeFirstLetter(Page.name)}
               </span>
-            </div>
+            </li>
           ))}
         </ul>
       </nav>
