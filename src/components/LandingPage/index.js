@@ -1,9 +1,14 @@
 import React from 'react';
+import Slideshow from '../Slideshow';
+import "./style.css"
+
 
 function LandingPage() {
     return (
         <section>
-            This is the landing page!
+            <div className='slide-show'>
+                <Slideshow />
+            </div>
         </section>
     )
 }

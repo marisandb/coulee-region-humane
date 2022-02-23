@@ -7,6 +7,9 @@ import Footer from "./components/Footer";
 function App() {
   const [pages] = useState([
     {
+      name: "home"
+    },
+    {
       name: "what we do"
     },
     { name: "who we are" },
@@ -17,6 +20,8 @@ function App() {
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
+
+
 
   return (
     <div>

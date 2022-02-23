@@ -12,6 +12,8 @@ function Page({ currentPage }) {
 
   const renderPage = () => {
     switch (currentPage.name) {
+      case 'home':
+        return <LandingPage />;
       case 'what we do':
         return <WhatWeDo />;
       case 'who we are':

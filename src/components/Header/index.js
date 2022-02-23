@@ -17,9 +17,9 @@ function Header(props) {
       </div>
       <div className='header-button'>
         <IconContext.Provider value={{ className: 'icons', color: "white", size: "45px"}}>
-        <a target="_blank" href="https://www.facebook.com/CRHSWildlife/?ref=page_internal"><FaFacebook/></a>
+        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/CRHSWildlife/?ref=page_internal"><FaFacebook/></a>
         </IconContext.Provider>
-        <a class="btn" target="_blank" href="https://donatenow.networkforgood.org/crhswildlife">DONATE NOW!</a>
+        <a class="btn" target="_blank" rel="noreferrer" href="https://donatenow.networkforgood.org/crhswildlife">DONATE NOW!</a>
       </div>
     </header>
   );
