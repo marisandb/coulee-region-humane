@@ -1,10 +1,17 @@
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
+
   .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
+  }
+  .swiper-slide img {
+    width: 1070px;
+    height: 713.333px;
+    position: relative;
+    
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
   }

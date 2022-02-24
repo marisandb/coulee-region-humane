@@ -5,25 +5,42 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-
+import "swiper/css/pagination";
 import "./style.css";
 
 // import required modules
-import { Navigation } from "swiper";
+import { Pagination, Navigation } from "swiper";
+
+// import images
+import flower from '../../assets/wildlife/flowerSkunk.jpg';
+import barnOwls from '../../assets/wildlife/barnOwls.jpg';
+import eagle from '../../assets/wildlife/eagle.jpg';
+import flyingSquirrel from '../../assets/wildlife/flyingSquirrel.jpg';
+import greatHornedOwl from '../../assets/wildlife/greatHornedOwl.jpg';
+import opossums from '../../assets/wildlife/opossums.jpg';
+import owl from '../../assets/wildlife/owl.jpg';
 
  function Slideshow() {
   return (
     <>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+    <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide><img src={flower} alt="Flower the educational skunk" /></SwiperSlide>
+        <SwiperSlide><img src={barnOwls} alt="Four young barn owls huddled together inside of a tree" /></SwiperSlide>
+        <SwiperSlide><img src={eagle} alt="Juvenile eagle with mouth slighly open" /></SwiperSlide>
+        <SwiperSlide><img src={flyingSquirrel} alt="A flying squireel resting a leopard print blanket" /></SwiperSlide>
+        <SwiperSlide><img src={greatHornedOwl} alt="A great horned owl stares widely at the camera" /></SwiperSlide>
+        <SwiperSlide><img src={opossums} alt="Four young possums gathered near their breakfast bowls" /></SwiperSlide>
+        <SwiperSlide><img src={owl} alt="Great horned owl with an injured beak stares strikingly at the camera" /></SwiperSlide>
       </Swiper>
     </>
   );
