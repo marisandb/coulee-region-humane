@@ -1,0 +1,31 @@
+.slide-show h1{
+    font-family: Open Sans;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: .9em;
+    text-align: center;
+    color: var(--secondary);
+}
+.main-text{
+    margin-left: 220px;
+    margin-right: 215px;
+}
+.main-text p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 1.7em;
+    margin-left: 15px;
+}
+
+.main-text h2{
+    color: var(--primary);
+    margin-left: 15px;
+}
+
+.main-text img{
+    margin-top: 20px;
+}

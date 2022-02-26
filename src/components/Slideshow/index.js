@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "./style.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 // import images
 import flower from '../../assets/wildlife/flowerSkunk.jpg';
@@ -23,15 +23,18 @@ import owl from '../../assets/wildlife/owl.jpg';
  function Slideshow() {
   return (
     <>
-    <Swiper
-        slidesPerView={1}
+     <Swiper
         spaceBetween={30}
-        loop={true}
+        centeredSlides={true}
+        autoplay={{
+          delay: 7000,
+          disableOnInteraction: false,
+        }}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide><img src={flower} alt="Flower the educational skunk" /></SwiperSlide>

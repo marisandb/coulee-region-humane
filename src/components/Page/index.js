@@ -29,7 +29,6 @@ function Page({ currentPage }) {
 
   return (
     <section>
-      <h2 className='section-header'>{capitalizeFirstLetter(currentPage.name)}</h2>
       <PageContent>{renderPage()}</PageContent>
     </section>
   );
