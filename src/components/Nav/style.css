@@ -1,14 +1,18 @@
 nav {
     background-color:var(--primary) ;
 }
-
+nav ul{
+    padding: 0%;
+}
 .nav-name {
     font-family: Open Sans Condensed;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: .42px;
     text-transform: capitalize;
+    padding: 0.5em;
+    display: inline-block;
 }
 
 .navActive {

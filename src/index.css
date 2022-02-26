@@ -28,6 +28,10 @@ code {
   flex-wrap: wrap;
 }
 
+.align-center{
+  align-items: center;
+}
+
 li {
   list-style: none;
 }

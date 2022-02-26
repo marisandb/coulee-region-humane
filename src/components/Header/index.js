@@ -8,7 +8,7 @@ import "./style.css"
 function Header(props) {
   
   return (
-    <header className="flex-row">
+    <header className="flex-row align-center">
       <div>
         <img src={logo} className="logo" alt="animal control logo" />
       </div>
