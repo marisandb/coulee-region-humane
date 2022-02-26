@@ -24,7 +24,8 @@ function LandingPage() {
                 </p>
                 </div>
                 
-            </div>    
+            </div> 
+            <hr></hr>   
         </section>
         
     )
