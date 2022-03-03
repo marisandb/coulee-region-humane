@@ -26,6 +26,7 @@ function WhoWeAre() {
                 </p>
                 </div>
             </div>
+                <hr></hr>
             <div className='right flex'>
                 <img className="officerimg" src={Katy} alt="Katy holding a baby owl" />
                 <div>
@@ -35,6 +36,7 @@ function WhoWeAre() {
                 </p>
                 </div>
             </div>
+                <hr></hr>
             <div className='left flex'>
                 <img className="officerimg" src={Casey} alt="Casey holding an eagle" />
                 <div className='officer-info'>

@@ -22,9 +22,15 @@ function LandingPage() {
                 <p>
                 Coulee Region Humane Society’s Wildlife Rehabilitation program is largely funded by donations from local supporters. Please consider donating to help care for these wildlife animals.
                 </p>
-                </div>
-                
+                </div>     
             </div> 
+            <div>
+                <h2>Thank You to Our Supporters</h2>
+                <p>A big thank you to ALL of our Wildlife Program supporters. Especially to  
+                    <a href="https://vanloonanimalhospital.com" target="_blank"> VAN LOON ANIMAL HOSPITAL</a>
+                    in Holmen, WI for supporting our Wildlife Program!
+                </p>
+            </div>
             <hr></hr>   
         </section>
         
