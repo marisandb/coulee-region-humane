@@ -29,3 +29,45 @@
 .main-text img{
     margin-top: 20px;
 }
+
+.facebook {
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
+.bottom{
+    font-family: Open Sans;
+    margin-left: 220px;
+    margin-right: 215px;
+}
+
+.donate-btn2{
+    border-radius: 3px;
+    padding: 21px 34px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--light) !important;
+    background-color: var(--primary);
+}
+
+.bottom a{
+    color: var(--secondary);
+}
+
+.van-loon{
+    width: 375px;
+    height: auto;
+}
+
+.padding{
+    padding-bottom: 20px;
+}
