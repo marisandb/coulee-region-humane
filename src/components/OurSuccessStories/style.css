@@ -1,4 +1,14 @@
+.success{
+    margin-left: 220px;
+    margin-right: 215px;
+}
+
 .eagle {
+    width: 250px;
+    height: auto;
+}
+
+.flower {
     width: 250px;
     height: auto;
 }
