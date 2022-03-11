@@ -1,14 +1,33 @@
 .success{
     margin-left: 220px;
     margin-right: 215px;
+    font-family: Open Sans;
+}
+.success h1{
+    color: var(--primary);
+    text-align: center;
+    font-size: 30px;
 }
 
-.eagle {
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: center;
+}
+.flex-container > * {
+    flex: 1 100%;
+}
+
+.success-img {
     width: 250px;
     height: auto;
+    margin-left: 75px;
+
 }
 
 .flower {
     width: 250px;
     height: auto;
+    margin-left: 75px;
 }
