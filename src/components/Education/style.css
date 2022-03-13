@@ -1,0 +1,17 @@
+.list-items{
+    font-family: Open Sans;
+    text-align: center;
+}
+
+.list-items h1{
+    color: var(--secondary);
+    font-size: 30px
+}
+
+.list-items a{
+    font-style: normal;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--dark);
+}
