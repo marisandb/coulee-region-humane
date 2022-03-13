@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/coulee-region-humane/static/css/main.187786e5.css",
+    "main.js": "/coulee-region-humane/static/js/main.7282a3f2.js",
+    "static/js/787.80b77c6d.chunk.js": "/coulee-region-humane/static/js/787.80b77c6d.chunk.js",
+    "static/media/flower1.jpg": "/coulee-region-humane/static/media/flower1.02b64890482d741608a7.jpg",
+    "static/media/eagle-rescue.jpg": "/coulee-region-humane/static/media/eagle-rescue.079607ed4c36e52b5063.jpg",
+    "static/media/flower3.jpg": "/coulee-region-humane/static/media/flower3.ec6a76c32642d1f3ce06.jpg",
+    "static/media/eagle-rescue2.jpg": "/coulee-region-humane/static/media/eagle-rescue2.018ca7d492346c3a07e0.jpg",
+    "static/media/Kathy.jpg": "/coulee-region-humane/static/media/Kathy.cadf3228a8d1ec9b21b8.jpg",
+    "static/media/Casey.jpg": "/coulee-region-humane/static/media/Casey.48d4111c2d6489e4445f.jpg",
+    "static/media/flower2.jpg": "/coulee-region-humane/static/media/flower2.38555aec7a862deddd09.jpg",
+    "static/media/eagle-rescue3.jpg": "/coulee-region-humane/static/media/eagle-rescue3.3491bc3ce51eb617f237.jpg",
+    "static/media/Katy.jpg": "/coulee-region-humane/static/media/Katy.fcac47fede56568ada3c.jpg",
+    "static/media/flowerSkunk.jpg": "/coulee-region-humane/static/media/flowerSkunk.eab5868752b2cfb60d59.jpg",
+    "static/media/owl.jpg": "/coulee-region-humane/static/media/owl.fef6c8c084e9d0e853eb.jpg",
+    "static/media/opossums.jpg": "/coulee-region-humane/static/media/opossums.61309760856c3afdaf6d.jpg",
+    "static/media/barnOwls.jpg": "/coulee-region-humane/static/media/barnOwls.d1bbb8d6a2b405837333.jpg",
+    "static/media/flyingSquirrel.jpg": "/coulee-region-humane/static/media/flyingSquirrel.1b52d4a02846211c6cf2.jpg",
+    "static/media/greatHornedOwl.jpg": "/coulee-region-humane/static/media/greatHornedOwl.0cde474fe541da7651d2.jpg",
+    "static/media/eagle.jpg": "/coulee-region-humane/static/media/eagle.e65f4609b52de8e7c90b.jpg",
+    "static/media/logo.png": "/coulee-region-humane/static/media/logo.c9f7b23cbd9fa3aa1fd5.png",
+    "static/media/shelter.jpg": "/coulee-region-humane/static/media/shelter.c47d5a81074af67e13e6.jpg",
+    "static/media/van-loon.jpg": "/coulee-region-humane/static/media/van-loon.761ba83120b3e55548fb.jpg",
+    "index.html": "/coulee-region-humane/index.html",
+    "main.187786e5.css.map": "/coulee-region-humane/static/css/main.187786e5.css.map",
+    "main.7282a3f2.js.map": "/coulee-region-humane/static/js/main.7282a3f2.js.map",
+    "787.80b77c6d.chunk.js.map": "/coulee-region-humane/static/js/787.80b77c6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.187786e5.css",
+    "static/js/main.7282a3f2.js"
+  ]
+}
